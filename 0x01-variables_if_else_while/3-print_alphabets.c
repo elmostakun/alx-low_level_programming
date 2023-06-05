@@ -12,7 +12,7 @@ while (a <= 'z')
 putchar(a);
 a++;
 }
-while (b < 'Z')
+while (b <= 'Z')
 {
 putchar(b);
 b++;
