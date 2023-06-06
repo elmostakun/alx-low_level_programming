@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "main.h"
 /**
  * main - main function
  * Return: 0
@@ -9,9 +10,9 @@ char a[9] = "_putchar";
 int i = 0;
 while (i < 8)
 {
-putchar(a[i]);
+_putchar(a[i]);
 i++;
 }
-putchar('\n');
+_putchar('\n');
 return (0);
 }
