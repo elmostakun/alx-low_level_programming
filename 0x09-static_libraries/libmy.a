@@ -1,0 +1,177 @@
+!<arch>
+0-isupper.c/    0           0     0     644     86        `
+#include "main.h"
+#include <ctype.h>
+
+int _isupper(int c)
+{
+return isupper(char a);
+}
+0-memset.c/     0           0     0     644     142       `
+#include "main.h"
+#include <string.h>
+
+char *_memset(char *s, char b, unsigned int n);
+{
+return (*memset(void *dest, int c, size_t count));
+}
+0-strcat.c/     0           0     0     644     129       `
+#include "main.h"
+#include <string.h>
+
+char *_strcat(char *dest, char *src)
+{
+  return (*strcat(char *dest, const char *src));
+}
+
+100-atoi.c/     0           0     0     644     97        `
+#include "main.h"
+#include <stdlib.h>
+
+int _atoi(char *s)
+{
+return (atoi(const char *string));
+}
+
+1-isdigit.c/    0           0     0     644     86        `
+#include "main.h"
+#include <ctype.h>
+
+int _isdigit(int c)
+{
+return(isdigit(int a));
+}
+1-memcpy.c/     0           0     0     644     154       `
+#include "main.h"
+#include <string.h>
+
+char *_memcpy(char *dest, char *src, unsigned int n)
+{
+return (*memcpy(void *dest, const void * src, size_t n));
+}
+1-strncat.c/    0           0     0     644     145       `
+#include "main.h"
+#include <string.h>
+
+char *_strncat(char *dest, char *src, int n)
+{
+return(*strncat(char *dest, const char *src, size_t n));
+}
+
+2-strchr.c/     0           0     0     644     119       `
+#include "main.h"
+#include <string.h>
+
+char *_strchr(char *s, char c)
+{
+return (*strchr(const char *string, int c));
+}
+
+2-strlen.c/     0           0     0     644     98        `
+#include "main.h"
+#include <string.h>
+
+int _strlen(char *s)
+{
+return (strlen(const char* str));
+}
+2-strncpy.c/    0           0     0     644     157       `
+#include "main.h"
+#include <string.h>
+
+char *_strncpy(char *dest, char *src, int n)
+{
+return (*strncpy(char *string1, const char *string2, size_t count));
+}
+
+3-islower.c/    0           0     0     644     86        `
+#include "main.h"
+#include <ctype>
+
+int _islower(int c)
+{
+return (islower(int ch));
+}
+3-puts.c/       0           0     0     644     95        `
+#include "main.h"
+#include <string.h>
+
+void _puts(char *s)
+{
+return (puts(const char *str));
+}
+
+3-strcmp.c/     0           0     0     644     136       `
+#include "main.h"
+#include <string.h>
+
+int _strcmp(char *s1, char *s2)
+{
+return (strcmp(const char *leftStr, const char *rightStr ));
+}
+3-strspn.c/     0           0     0     644     140       `
+#include "main.h"
+#include <string.h>
+
+unsigned int _strspn(char *s, char *accept)
+{
+return (strspn(const char *str1, const char *str2));
+}
+4-isalpha.c/    0           0     0     644     87        `
+#include "main.h"
+#include <ctype.h>
+
+int _isalpha(int c)
+{
+return (isalpha(int c));
+}
+
+4-strpbrk.c/    0           0     0     644     136       `
+#include "main.h"
+#include <string.h>
+
+char *_strpbrk(char *s, char *accept)
+{
+return (*strpbrk(const char *str1, const char *str2));
+}
+5-strstr.c/     0           0     0     644     147       `
+#include "main.h"
+#include <string.h>
+
+char *_strstr(char *haystack, char *needle)
+{
+return (*strstr(const char *haystack, const char *needle));
+}
+
+6-abs.c/        0           0     0     644     79        `
+#include "main.h"
+#include <stdio.h>
+
+int _abs(int n)
+{
+return (abs(int x));
+}
+
+9-strcpy.c/     0           0     0     644     127       `
+#include "main.h"
+#include <string.h>
+
+char *_strcpy(char *dest, char *src)
+{
+return (*strcpy(char *dest, const char *src));
+}
+
+_putchar.c/     0           0     0     644     246       `
+#include <unistd.h>
+
+/**
+ * _putchar - writes the character c to stdout
+ * @c: The character to print
+ *
+ * Return: On success 1.
+ * On error, -1 is returned, and errno is set appropriately.
+ */
+int _putchar(char c)
+{
+return (write(1, &c, 1));
+}
