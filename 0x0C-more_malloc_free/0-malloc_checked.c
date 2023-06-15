@@ -14,7 +14,7 @@ p = malloc(b);
 
 if (p == NULL)
 {
-printf("98\n");
+exit(98);
 }
 return (p);
 }
