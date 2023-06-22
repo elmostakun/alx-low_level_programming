@@ -3,7 +3,7 @@
 #include <stdarg.h>
 
 /**
- * sum_them_all
+ * sum_them_all - function that returns the sum of all arguments
  * @n: number of argyments
  * @...: A variable number of paramters to calculate the sum of
  * Return: 0
