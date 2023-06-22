@@ -5,6 +5,7 @@
 /**
  * sum_them_all
  * @n: number of argyments
+ * @...: A variable number of paramters to calculate the sum of
  * Return: 0
  */
 
